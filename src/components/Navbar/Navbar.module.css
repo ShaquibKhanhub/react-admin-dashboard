@@ -1,0 +1,58 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: white;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  margin-bottom: 2rem;
+  position: sticky;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.search-bar {
+  display: flex;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.auth-links a {
+
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.auth-links {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.addEmployeeLink {
+
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.authLinks a + a {
+  margin-left: 10px; 
+  color: black;
+}
